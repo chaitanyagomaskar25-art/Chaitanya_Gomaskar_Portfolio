@@ -9,7 +9,7 @@ export function ResumeSection() {
     if (profile.resumeAvailable) {
       const link = document.createElement('a');
       link.href = profile.resumePath;
-      link.download = 'Full-Stack-Developer-Resume.pdf';
+      link.download = 'Chaitanya_Gomaskar_FSDI_Resume.pdf';
       link.click();
     }
   };

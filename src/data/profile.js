@@ -1,3 +1,4 @@
+
 export const profile = {
   name: 'Chaitanya Gomaskar',
   role: 'Full-Stack Developer',
@@ -11,10 +12,10 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/chaitanya-gomaskar-347189361/?isSelfProfile=true',
   location: 'Gadchiroli, MH India - 442605',
   availability: 'Available for opportunities',
-  resumePath: '/resume.pdf',
-  resumeAvailable: false,
-  // profileImage: 'https://media.discordapp.net/attachments/1553220499574755429/1556259910373609632/file_00000000d3a48208afad084f26a0b10d.png?backend=b2&ex=6ad7f2bc&is=6ad6a13c&hm=7bf21561ea0d93edbfc0404a346656f8c40fe80c1053ea1017a28ba83f00cb8e&=&format=webp&quality=lossless&width=512&height=512',
-  // aboutImage: 'https://media.discordapp.net/attachments/1553220499574755429/1556259910373609632/file_00000000d3a48208afad084f26a0b10d.png?backend=b2&ex=6ad7f2bc&is=6ad6a13c&hm=7bf21561ea0d93edbfc0404a346656f8c40fe80c1053ea1017a28ba83f00cb8e&=&format=webp&quality=lossless&width=512&height=512',
+  resumePath: 'public/Chaitanya_Gomaskar_FSDI_Resume.pdf',
+  resumeAvailable: true,
+  profileImage: 'https://media.discordapp.net/attachments/1553220499574755429/1556259910373609632/file_00000000d3a48208afad084f26a0b10d.png?backend=b2&ex=6ad7f2bc&is=6ad6a13c&hm=7bf21561ea0d93edbfc0404a346656f8c40fe80c1053ea1017a28ba83f00cb8e&=&format=webp&quality=lossless&width=512&height=512',
+  aboutImage: 'https://media.discordapp.net/attachments/1553220499574755429/1556259910373609632/file_00000000d3a48208afad084f26a0b10d.png?backend=b2&ex=6ad7f2bc&is=6ad6a13c&hm=7bf21561ea0d93edbfc0404a346656f8c40fe80c1053ea1017a28ba83f00cb8e&=&format=webp&quality=lossless&width=512&height=512',
 };
 
 export const aboutHighlights = [
