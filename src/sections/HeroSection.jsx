@@ -15,11 +15,12 @@ const techStack = [
 
 const codeLines = [
   { text: 'const developer = {', indent: 0 },
-  { text: "name: 'Your Name',", indent: 1, color: true },
+  { text: "name: 'Chaitanya Hivraj Gomaskar',", indent: 1, color: true },
   { text: "role: 'Full-Stack Developer',", indent: 1, color: true },
   { text: 'skills: [', indent: 1 },
   { text: "'React', 'Node.js', 'Python',", indent: 2, color: true },
-  { text: "'PostgreSQL', 'MongoDB'", indent: 2, color: true },
+  { text: "'Tailwind CSS', 'Javascript','NodeJS', ", indent: 2, color: true },
+  { text: "'MongoDB', 'ExpressJS','SQL'", indent: 3, color: true },
   { text: '],', indent: 1 },
   { text: 'available: true,', indent: 1, color: true },
   { text: '}', indent: 0 },

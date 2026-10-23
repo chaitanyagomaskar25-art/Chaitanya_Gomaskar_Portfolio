@@ -1,4 +1,4 @@
-
+import Image from "../assets/chaitanya.webp"
 export const profile = {
   name: 'Chaitanya Gomaskar',
   role: 'Full-Stack Developer',
@@ -14,8 +14,8 @@ export const profile = {
   availability: 'Available for opportunities',
   resumePath: 'public/Chaitanya_Gomaskar_FSDI_Resume.pdf',
   resumeAvailable: true,
-  profileImage: 'https://media.discordapp.net/attachments/1553220499574755429/1556259910373609632/file_00000000d3a48208afad084f26a0b10d.png?backend=b2&ex=6ad7f2bc&is=6ad6a13c&hm=7bf21561ea0d93edbfc0404a346656f8c40fe80c1053ea1017a28ba83f00cb8e&=&format=webp&quality=lossless&width=512&height=512',
-  aboutImage: 'https://media.discordapp.net/attachments/1553220499574755429/1556259910373609632/file_00000000d3a48208afad084f26a0b10d.png?backend=b2&ex=6ad7f2bc&is=6ad6a13c&hm=7bf21561ea0d93edbfc0404a346656f8c40fe80c1053ea1017a28ba83f00cb8e&=&format=webp&quality=lossless&width=512&height=512',
+  profileImage: "https://avatars.githubusercontent.com/u/224026900?v=4",
+  aboutImage: "https://avatars.githubusercontent.com/u/224026900?v=4",
 };
 
 export const aboutHighlights = [
