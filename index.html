@@ -1,32 +1,42 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Full-Stack Developer portfolio showcasing projects, certifications, skills, and experience. Building responsive, user-friendly web applications and reliable backend systems." />
-    <meta name="author" content="Full-Stack Developer" />
+    <meta name="description" content="Chaitanya Gomaskar — Full-Stack MERN Developer specializing in high-performance web applications, scalable backend microservices, and modern responsive user interfaces." />
+    <meta name="author" content="Chaitanya Gomaskar" />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://your-portfolio-domain.com/" />
+
+    <!-- Anti-Flash Theme Script: Executes synchronously before page renders -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('theme');
+          var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = saved || (systemDark ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Full-Stack Developer Portfolio" />
-    <meta property="og:description" content="Building digital experiences that solve real problems. Explore my projects, certifications, and skills." />
-    <meta property="og:image" content="https://bolt.new/static/og_default.png" />
-    <meta property="og:url" content="https://your-portfolio-domain.com/" />
+    <meta property="og:title" content="Chaitanya Gomaskar — Full-Stack MERN Developer" />
+    <meta property="og:description" content="Building robust MERN stack solutions and scalable web architectures." />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/224026900?v=4" />
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Full-Stack Developer Portfolio" />
-    <meta name="twitter:description" content="Building digital experiences that solve real problems." />
-    <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
-
+    <!-- Typography: Space Grotesk, Manrope, Inter, JetBrains Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 
-    <title>Full-Stack Developer Portfolio</title>
+    <title>Chaitanya Gomaskar — Full-Stack MERN Developer</title>
   </head>
   <body>
     <div id="root"></div>

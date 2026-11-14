@@ -5,7 +5,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+        sans: ['Manrope', 'Inter', 'system-ui', 'sans-serif'],
+        display: ['Space Grotesk', 'Manrope', 'sans-serif'],
         mono: ['JetBrains Mono', 'monospace'],
       },
       colors: {
@@ -19,21 +20,30 @@ export default {
           primary: 'var(--text-primary)',
           secondary: 'var(--text-secondary)',
           tertiary: 'var(--text-tertiary)',
+          muted: 'var(--text-muted)',
         },
         border: {
           primary: 'var(--border-primary)',
           secondary: 'var(--border-secondary)',
+          subtle: 'var(--border-subtle)',
         },
         accent: {
           primary: 'var(--accent-primary)',
           secondary: 'var(--accent-secondary)',
+          tertiary: 'var(--accent-tertiary)',
           soft: 'var(--accent-soft)',
+          glow: 'var(--accent-glow)',
         },
       },
       boxShadow: {
         sm: 'var(--shadow-sm)',
         md: 'var(--shadow-md)',
         lg: 'var(--shadow-lg)',
+        glow: 'var(--shadow-glow)',
+      },
+      borderRadius: {
+        '2xl': '1.25rem',
+        '3xl': '1.5rem',
       },
     },
   },
